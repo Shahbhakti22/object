@@ -1,0 +1,72 @@
+package functions;
+import java.util.*;
+
+public class obj {
+	
+		
+		public static void add()
+		{
+			Scanner sc=new Scanner (System.in);
+			System.out.println("enter 2 no");
+			int num,num1,res;
+			num=sc.nextInt();
+			num1=sc.nextInt();
+			res=num+num1;
+			System.out.println("add is:" +res);
+			
+		}
+		
+		public static void sub()
+		{
+			Scanner sc=new Scanner (System.in);
+			System.out.println("enter 2 no");
+			int num,num1,res;
+			num=sc.nextInt();
+			num1=sc.nextInt();
+			res=num-num1;
+			System.out.println("Sub is:" +res);
+			
+		}
+		
+		public static void mul()
+		{
+			Scanner sc=new Scanner (System.in);
+			System.out.println("enter 2 no");
+			int num,num1,res;
+			num=sc.nextInt();
+			num1=sc.nextInt();
+			res=num*num1;
+			System.out.println("mul is:" +res);
+		}
+		
+		public static void div()
+		{
+			Scanner sc=new Scanner (System.in);
+			System.out.println("enter 2 no");
+			int num,num1,res;
+			num=sc.nextInt();
+			num1=sc.nextInt();
+			res=num/num1;
+			System.out.println("div is:" +res);
+		}
+
+		
+	
+
+}
+------------------------------------------
+public class cal_demo {
+
+	public static void main(String[] args) {
+		
+		obj obj=new obj();
+		obj.add();
+		obj.sub();
+		obj.mul();
+		obj.div();
+		
+		
+
+	}
+
+}
